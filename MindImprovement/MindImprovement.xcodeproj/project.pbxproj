@@ -14,6 +14,8 @@
 		B604AFE2245D760600FF8211 /* MindImprovement.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B604AFE0245D760600FF8211 /* MindImprovement.xcdatamodeld */; };
 		B604AFE4245D760700FF8211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B604AFE3245D760700FF8211 /* Assets.xcassets */; };
 		B604AFE7245D760700FF8211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604AFE5245D760700FF8211 /* LaunchScreen.storyboard */; };
+		B604AFF5245D7A9900FF8211 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AFF4245D7A9900FF8211 /* Model.swift */; };
+		B604AFF7245D7AA300FF8211 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AFF6245D7AA300FF8211 /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B604AFE3245D760700FF8211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B604AFE6245D760700FF8211 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B604AFE8245D760700FF8211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B604AFF4245D7A9900FF8211 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		B604AFF6245D7AA300FF8211 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +62,66 @@
 		B604AFD6245D760600FF8211 /* MindImprovement */ = {
 			isa = PBXGroup;
 			children = (
+				B604AFF0245D79F500FF8211 /* Sources */,
+				B604AFEE245D795F00FF8211 /* Resources */,
+				B604AFE0245D760600FF8211 /* MindImprovement.xcdatamodeld */,
+				B604AFE8245D760700FF8211 /* Info.plist */,
 				B604AFD7245D760600FF8211 /* AppDelegate.swift */,
 				B604AFD9245D760600FF8211 /* SceneDelegate.swift */,
-				B604AFDB245D760600FF8211 /* ViewController.swift */,
-				B604AFDD245D760600FF8211 /* Main.storyboard */,
-				B604AFE3245D760700FF8211 /* Assets.xcassets */,
-				B604AFE5245D760700FF8211 /* LaunchScreen.storyboard */,
-				B604AFE8245D760700FF8211 /* Info.plist */,
-				B604AFE0245D760600FF8211 /* MindImprovement.xcdatamodeld */,
 			);
 			path = MindImprovement;
+			sourceTree = "<group>";
+		};
+		B604AFEE245D795F00FF8211 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFE3245D760700FF8211 /* Assets.xcassets */,
+				B604AFEF245D79DA00FF8211 /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B604AFEF245D79DA00FF8211 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFDD245D760600FF8211 /* Main.storyboard */,
+				B604AFE5245D760700FF8211 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B604AFF0245D79F500FF8211 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFF3245D7A1600FF8211 /* Models */,
+				B604AFF2245D7A0800FF8211 /* Extensions */,
+				B604AFF1245D7A0200FF8211 /* ViewControllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B604AFF1245D7A0200FF8211 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFDB245D760600FF8211 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B604AFF2245D7A0800FF8211 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFF6245D7AA300FF8211 /* Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B604AFF3245D7A1600FF8211 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B604AFF4245D7A9900FF8211 /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B604AFF5245D7A9900FF8211 /* Model.swift in Sources */,
 				B604AFDC245D760600FF8211 /* ViewController.swift in Sources */,
 				B604AFD8245D760600FF8211 /* AppDelegate.swift in Sources */,
+				B604AFF7245D7AA300FF8211 /* Extension.swift in Sources */,
 				B604AFE2245D760600FF8211 /* MindImprovement.xcdatamodeld in Sources */,
 				B604AFDA245D760600FF8211 /* SceneDelegate.swift in Sources */,
 			);
