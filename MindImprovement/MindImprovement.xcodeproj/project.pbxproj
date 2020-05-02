@@ -31,6 +31,7 @@
 		B604AFE7245D760700FF8211 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604AFE5245D760700FF8211 /* LaunchScreen.storyboard */; };
 		B604AFF5245D7A9900FF8211 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AFF4245D7A9900FF8211 /* Model.swift */; };
 		B604AFF7245D7AA300FF8211 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B604AFF6245D7AA300FF8211 /* Extension.swift */; };
+		B604AFF9245D84E700FF8211 /* SelectMindset.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B604AFF8245D84E700FF8211 /* SelectMindset.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		B604AFE8245D760700FF8211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B604AFF4245D7A9900FF8211 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		B604AFF6245D7AA300FF8211 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		B604AFF8245D84E700FF8211 /* SelectMindset.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SelectMindset.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 				558E171E245D8041003A1EC2 /* DictationSolution.storyboard */,
 				558E1723245D80DA003A1EC2 /* MusicSolution.storyboard */,
 				558E1728245D8159003A1EC2 /* MyPage.storyboard */,
+				B604AFF8245D84E700FF8211 /* SelectMindset.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				558E1703245D7D34003A1EC2 /* OnBoardingStart.storyboard in Resources */,
 				558E171A245D7F9F003A1EC2 /* ThankYouSolution.storyboard in Resources */,
 				558E1710245D7DFF003A1EC2 /* SelectPeriod.storyboard in Resources */,
+				B604AFF9245D84E700FF8211 /* SelectMindset.storyboard in Resources */,
 				B604AFE4245D760700FF8211 /* Assets.xcassets in Resources */,
 				558E1724245D80DA003A1EC2 /* MusicSolution.storyboard in Resources */,
 				558E1729245D8159003A1EC2 /* MyPage.storyboard in Resources */,
