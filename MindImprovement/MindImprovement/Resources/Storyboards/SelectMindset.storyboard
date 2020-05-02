@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CcP-Lw-Sz7">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Select Mind Set View Controller-->
+        <scene sceneID="Bya-0P-Jqr">
+            <objects>
+                <viewController id="CcP-Lw-Sz7" customClass="SelectMindSetViewController" customModule="MindImprovement" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2nl-0z-m9P">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ao-pb-bsx">
+                                <rect key="frame" x="30" y="117" width="142" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="142" id="51W-Q0-lDz"/>
+                                    <constraint firstAttribute="height" constant="41" id="yiI-rx-nu0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="원하는 마인드셋을 선택해주세요" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5M3-JV-sdW">
+                                <rect key="frame" x="30" y="166" width="203" height="19"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="19" id="1AM-sb-mos"/>
+                                    <constraint firstAttribute="width" constant="203" id="MVb-Qe-ZGX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="8mp-Yl-kgO">
+                                <rect key="frame" x="30" y="246" width="315" height="400"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kk7-sO-NrQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="315" height="121.33333333333333"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pcd-iG-A5A">
+                                        <rect key="frame" x="0.0" y="139.33333333333331" width="315" height="121.33333333333331"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ltw-aV-5fG">
+                                        <rect key="frame" x="0.0" y="278.66666666666663" width="315" height="121.33333333333331"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMe-nx-kLD">
+                                <rect key="frame" x="30" y="734" width="315" height="48"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="qBp-VA-N8B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <state key="normal" title="다음">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="XMe-nx-kLD" firstAttribute="leading" secondItem="yod-0t-bed" secondAttribute="leading" constant="30" id="2YB-YN-4N5"/>
+                            <constraint firstItem="5M3-JV-sdW" firstAttribute="top" secondItem="4Ao-pb-bsx" secondAttribute="bottom" constant="8" id="APL-wc-WaA"/>
+                            <constraint firstItem="5M3-JV-sdW" firstAttribute="leading" secondItem="yod-0t-bed" secondAttribute="leading" constant="30" id="BlH-08-hB4"/>
+                            <constraint firstItem="4Ao-pb-bsx" firstAttribute="leading" secondItem="yod-0t-bed" secondAttribute="leading" constant="30" id="Dhe-3K-ymC"/>
+                            <constraint firstItem="yod-0t-bed" firstAttribute="trailing" secondItem="XMe-nx-kLD" secondAttribute="trailing" constant="30" id="L8U-Ju-C34"/>
+                            <constraint firstItem="XMe-nx-kLD" firstAttribute="top" secondItem="8mp-Yl-kgO" secondAttribute="bottom" constant="88" id="SRt-c1-lcb"/>
+                            <constraint firstItem="4Ao-pb-bsx" firstAttribute="top" secondItem="yod-0t-bed" secondAttribute="top" constant="73" id="hjc-Io-XNF"/>
+                            <constraint firstItem="yod-0t-bed" firstAttribute="trailing" secondItem="8mp-Yl-kgO" secondAttribute="trailing" constant="30" id="mgu-77-0v5"/>
+                            <constraint firstItem="8mp-Yl-kgO" firstAttribute="leading" secondItem="yod-0t-bed" secondAttribute="leading" constant="30" id="nhd-lB-vUF"/>
+                            <constraint firstAttribute="bottom" secondItem="XMe-nx-kLD" secondAttribute="bottom" constant="30" id="sQS-m4-YYb"/>
+                            <constraint firstItem="8mp-Yl-kgO" firstAttribute="top" secondItem="5M3-JV-sdW" secondAttribute="bottom" constant="61" id="uZW-bz-8fi"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yod-0t-bed"/>
+                    </view>
+                    <connections>
+                        <outlet property="challengeOneButton" destination="kk7-sO-NrQ" id="QEl-WT-mtL"/>
+                        <outlet property="challengeThreeButton" destination="Ltw-aV-5fG" id="bj0-iG-l5g"/>
+                        <outlet property="challengeTwoButton" destination="Pcd-iG-A5A" id="xkE-os-aE4"/>
+                        <outlet property="nextButton" destination="XMe-nx-kLD" id="D5t-9j-D5v"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="77Q-AO-ncy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="84"/>
+        </scene>
+    </scenes>
+</document>
